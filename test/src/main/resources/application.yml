@@ -1,0 +1,18 @@
+server:
+  port: 6002
+
+spring:
+  application:
+    name: center-test
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 1.117.117.104:8848
+
+# 用于actuator暴露监控指标
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
