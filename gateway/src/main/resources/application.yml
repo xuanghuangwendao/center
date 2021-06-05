@@ -1,8 +1,18 @@
 server:
-  port: 7001
+  port: 6001
 
 spring:
+  application:
+    name: gateway
+
   cloud:
     nacos:
       discovery:
-        server-addr: 1.117.117.10:8848
+        server-addr: 1.117.117.104:8848
+
+# 用于actuator暴露监控指标
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
