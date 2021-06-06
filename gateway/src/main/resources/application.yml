@@ -9,13 +9,12 @@ spring:
     nacos:
       discovery:
         server-addr: 1.117.117.104:8848
-
     gateway:
       routes:
-        - id: center-test
+        - id: test
           uri: lb://center-test  # 后端服务名
           predicates:
-            - Path=/center-test/**   # 路由地址
+            - Path=/test/**   # 路由地址
           filters:
             - StripPrefix=1 # 去掉前缀
 

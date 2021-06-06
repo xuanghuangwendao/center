@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/center.iml" filepath="$PROJECT_DIR$/.idea/center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/center-auth/center-auth.iml" filepath="$PROJECT_DIR$/center-auth/center-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
